@@ -1,11 +1,19 @@
 # Ignore .local and .screenshots directories
 .local/*
 .screenshots/
+/.local
+/.local/*
 
 # Ignore project temporary and output directories
 .project/
 .output/
 .metadata/
+/.settings
+.settings/*
+/.settings
+/.settings/*
+.settings/
+temp/
 
 # Ignore log files
 *.log
@@ -13,7 +21,6 @@
 # Ignore auto-generated files and folders
 .settings/
 temp/
-TestResults/
 
 # Ignore package directories
 packages/
@@ -48,3 +55,14 @@ config/
 
 # Ignore Visual Studio Code settings
 .vscode/
+
+# Additional entries from gitignore template
+.objects
+.objects/*
+/.objects
+/.objects/*
+.tmh
+.tmh/*
+/.tmh
+/.tmh/*
+~*
